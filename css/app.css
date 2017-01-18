@@ -5,10 +5,28 @@
 	Green: #2DCB71;
 	Yellow: #F0C310;
 */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.blue {
+	color: #3496DA;
+}
+.red {
+	color: #E74C3B;
+}
+.green {
+	color: #2DCB71;
+}
+.yellow {
+	color: #F0C310;
+}
 #site-logo {
 	margin: 20px 0;
 }
 
 .callout {
+	background: #3496DA;
 	border: none;
+	color: #fff;
+	padding: 20px 60px;
 }
