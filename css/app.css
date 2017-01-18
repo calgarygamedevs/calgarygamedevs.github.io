@@ -32,18 +32,59 @@ h1 {
 	margin: 20px 0;
 }
 
+a {
+	color: #c0e2f9;
+	border-bottom: 1px dashed #c0e2f9;
+}
+a:hover {
+	border-bottom: 1px solid #c0e2f9;
+}
+
+header {
+	display: flex;
+	align-items: center;
+}
+
 #preamble.callout {
 	background: #3496DA;
 	border: none;
 	color: #fff;
 	text-align: center;
 }
+#preamble.callout a {
+	font-weight: bold;
+}
 #events h1 {
 	background: #E74C3B;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
+	margin-bottom: 0;
+}
+#events h2 {
+	color: #fff;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
 }
 #events .bucket {
 	background: #D3D3D3;
+	padding-top: 15px;
+	border-right: 1px solid #bbb;
+}
+#leadership-bios {
+	display: flex;
+}
+#leadership-bios .bio {
+	flex: 1;
+}
+
+#membership-button {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1.4em;
 }
