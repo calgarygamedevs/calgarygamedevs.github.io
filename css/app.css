@@ -43,8 +43,8 @@ a:hover {
 }
 #wrapper {
 	background: #fff;
-	padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
+	padding-right: 1.875rem;
+    padding-left: 1.875rem;
 }
 header {
 	display: flex;
@@ -55,10 +55,12 @@ header {
 	background: #3496DA;
 	border: none;
 	color: #fff;
-	text-align: center;
 }
 #preamble.callout a {
 	font-weight: bold;
+}
+#events {
+	margin-bottom: 1rem;
 }
 #events h1 {
 	background: #E74C3B;
@@ -69,26 +71,25 @@ header {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-#events h2 {
-	color: #333;
-	font-size: 1.2em;
-	text-align: center;
-	text-transform: uppercase;
-}
 #events .bucket {
 	background: #fff;
 	padding-top: 15px;
 	border-right: 1px solid #bbb;
 	border-bottom: 1px solid #bbb;
+	font-size: .8em;
+}
+
+#events .bucket h2 {
+	color: #333;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 #events .bucket.first {
 	border-left: 1px solid #bbb;
 }
-#leadership-bios {
-	display: flex;
-}
-#leadership-bios .bio {
-	flex: 1;
+#membership {
+	margin-top: 1rem;
 }
 
 #membership-button {
