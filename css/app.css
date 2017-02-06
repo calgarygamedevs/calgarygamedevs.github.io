@@ -41,6 +41,13 @@ a:hover {
 #site-logo {
 	margin: 20px 0;
 }
+#utility-nav a {
+	border-bottom: 0;
+}
+#utility-nav .fa {
+	display: inline-block;
+	font-size: 2.8em;
+}
 #wrapper {
 	background: #fff;
 	padding-right: 1.875rem;
@@ -100,4 +107,20 @@ header {
 	font-size: 1.6em;
 	font-weight: bold;
 	line-height: 1.4em;
+}
+
+.bio p {
+	margin-bottom: 0;
+}
+.bio .name {
+	margin-top: 10px;
+}
+.bio .position {
+	font-size: .8em;
+}
+#contact {
+	background: #2DCB71;
+	color: #fff;
+	padding-top: 15px;
+	text-align: center;
 }
