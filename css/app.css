@@ -88,20 +88,23 @@ header {
 #events .bucket {
 	background: #fff;
 	padding-top: 15px;
+	border-left: 1px solid #bbb;
 	border-right: 1px solid #bbb;
 	border-bottom: 1px solid #bbb;
 	font-size: .8em;
 }
-
+#events .bucket:nth-child(even) {
+	border-right: 0;
+}
+#events .bucket:last-child {
+	border-right: 1px solid #bbb;
+}
 #events .bucket h2 {
 	color: #333;
 	font-size: 1.2em;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 10px;
-}
-#events .bucket.first {
-	border-left: 1px solid #bbb;
+	margin-top: 15px;
 }
 #membership {
 	margin-top: 1rem;
