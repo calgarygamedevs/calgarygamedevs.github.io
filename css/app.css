@@ -106,6 +106,18 @@ header {
 	text-transform: uppercase;
 	margin-top: 15px;
 }
+
+#leadership h1 {
+	background: #3496DA;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
 #membership {
 	margin-top: 1rem;
 }
