@@ -137,6 +137,31 @@ header {
 	line-height: 1.4em;
 }
 
+#SlackBox {
+	padding: 10px;
+	margin: 10px;
+}
+
+#SlackBox p {
+	float: left;
+	margin-top: 10px
+}
+
+#SlackBox a {
+	margin-left: 10px;
+	padding-top: 10px;
+	border:0;
+}
+
+a img {
+	padding: 1px;
+}
+
+a img:hover {
+	width: 55%;
+	height: 55%;
+}
+
 .bio p {
 	margin-bottom: 0;
 }
